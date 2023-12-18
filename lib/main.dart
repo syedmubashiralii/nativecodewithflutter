@@ -22,6 +22,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String myname = "mubashir";
   static const platform = MethodChannel('flutternativecode');
   String _message = '';
   int battery = 0;
